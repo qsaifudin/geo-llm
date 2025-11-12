@@ -1,0 +1,37 @@
+.map-section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #f0f0f0;
+}
+
+.map-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 16px;
+}
+
+.info-window {
+  padding: 10px;
+  max-width: 250px;
+}
+
+.info-window h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.info-window p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.info-rating {
+  font-weight: 600;
+  color: #856404;
+}
